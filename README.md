@@ -1,4 +1,4 @@
-# google-sheet-youtube-playlist-generator
+# Google Sheet to Youtube Playlist Generator
 This Google Apps Script code can be attached to a Google Sheets document to provide a UI element for automatically adding a column of Youtube URLs to a specified Youtube playlist.
 
 Use the `Extensions` > `Apps Script` menu option to generate an attached Apps Script project, then drop the contents of `code.gs` in the default generated file. Saving this file and reloading the Google Sheet will then display the new menu `Youtube Data` with the option `Add videos to playlist`. Upon clicking this, the script will run, requesting the ID of the playlist to add the videos to, as well as the number of the column where the URLs are located. This code assumes that there is some header in the first row of the sheet, starting with the second row and continuing to the bottom.
